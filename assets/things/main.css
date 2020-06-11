@@ -4,14 +4,57 @@
       width: 100%;
   }
 
+  .nav-bar{
+     background-color: #131313;
+     text-decoration: none;
+     height: 30px;
+     width: 100%;
+     margin: 0 auto;
+     font-family: 'Oswald', sans-serif;
+     font-size: 13px;
+     font-weight: bold;
+  }
+  #news {
+      color: white;
+  }
+.nav-bar-list1>li,
+.nav-bar-list2>li{
+    display: inline-block;
+    padding-right: 10px;
+  
+    
+}
+.nav-bar-list1>li>a,
+.nav-bar-list2>li>a{
+    text-decoration: none;
+    color: #929292;
+}
+.dropbtn{
 
+text-decoration: none;
+color:#929292;
+}
 
+.nav-bar-items{
+    display: inline;
+  
+    
+}
+.nav-bar-list1{
+   float: left;
+   margin:6px 20px 2px 0;
+}
+.nav-bar-list2{
+float:right;
+margin:6px 20px 2px 0;
 
-
-
+   
+    
+}*/
   .dropdown {
     position: relative;
     display: inline-block;
+    text-decoration: none;
   }
   
   .dropdown-content {
