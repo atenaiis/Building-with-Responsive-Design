@@ -341,7 +341,7 @@ line-height: 25px;
 .funding-text1{
   text-decoration: none;
   font-size: 12px;
-  color:  #646464;;
+  color:  #646464;
   
 }
 
@@ -350,4 +350,61 @@ line-height: 25px;
 
 color:  #929292;
 font-size: 12px;
+}
+
+.bottom-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  width: 80%;
+}
+.bottom-text{
+height: 95px;
+background-color: #fff4f2;
+
+
+}
+
+.btm-txt,
+.btm-txt2{
+ font-size: 13px;
+ text-decoration: none;
+text-align: ;
+ color: #FF4422;
+ font-family: 'Anton', sans-serif;
+ font-weight: bold;
+ padding: 5px;
+}
+
+.bottom-little-img{
+ float: right;
+  
+}
+.bottom-list-items1{
+
+
+}
+.bottom-list-items>li
+{
+  border-bottom: 1px solid black;
+  list-style-type: none;
+ 
+
+}
+
+.bottom-list-items>li::before{
+  content: "•"; 
+  padding-right: 8px;
+  color: #FF4422;
+}
+.bottom-list-items>li>a{
+  text-decoration: none;
+  color: #646464;
+  font-size: 13px;
+  word-spacing: 5px;
+  overflow: auto;
+  
+  
+
+
 }
