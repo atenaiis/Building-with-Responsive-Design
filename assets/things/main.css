@@ -35,6 +35,12 @@ html{
     text-decoration: none;
     color: #929292;
 }
+
+.nav-bar-list1>li>a:hover,
+.nav-bar-list2>li>a:hover{
+  color: white;
+}
+
 .dropbtn{
 
 text-decoration: none;
@@ -110,8 +116,10 @@ margin:6px 20px 2px 0;
   .white-nav-items>li>a{
       text-decoration: none;
       color: #929292;
-      
+  }
 
+  .white-nav-items>li>a:hover{
+    color:black;
   }
   .search,
   .register-btn{
@@ -170,33 +178,66 @@ margin:6px 20px 2px 0;
     grid-column: 3;
     grid-row: 2 / span 1;
 }
-.lates-news-title{
+
+
+.latest-news-imgs{
+ 
+margin:10px 30px 10px 80px ;
+padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  width: 75%;
+  
+}
+.latest-news-top{
     font-family: 'Anton', sans-serif;
     color:#FF4422;
     font-size: 28px;
     font-weight: bold;
-    width: 75%;
-    margin: 0 auto;
+    height:100px;
+    margin-left: 80px;
 
    
 }
-.{
-margin: 30px 30px 0 ;
-}
-.latest-news:hover{
+
+.latest-news-top:hover{
     color: #333;
 }
 
 
-.latest-news{
-    width: 75%;
-  margin: 0 auto;
-  font-size: 14px;
-  font-style: normal;
-  font-family: NYTCheltenham, Georgia, "Times New Roman", Times, serif;
+
+
+
+.news1-caption{
+  text-decoration: none;
+  color: black;
+  font-family: 'Viga', sans-serif;
+  justify-content: center;
+  font-size: 16px;
+ 
 }
-.latest-news-imgs{
-    display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
+
+.news1-caption:hover{
+  color: #ff4321;
+text-decoration: underline;
+
+}
+
+.autor{
+  text-decoration: none;
+  font-family: 'Comic Neue', cursive;
+  font-size: 14px;
+  color:  #aaa;
+
+}
+.autor:hover{
+  color:#555;
+}
+
+.times{
+  font-family: 'Comic Neue', cursive;
+  font-size: 14px;
+  color:  #aaa;
+
 }
