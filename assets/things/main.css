@@ -241,3 +241,32 @@ text-decoration: underline;
   color:  #aaa;
 
 }
+.middle-nav-bar{
+  height: 50px;
+  margin: 0 auto;
+  width: 100%;
+
+}
+
+.middle-nav-latest{
+text-decoration: none;
+color:#FF4422;
+float: left;
+margin:6px 20px 2px 0;
+
+}
+
+.middle-nav-list>li{
+  list-style: none;
+  display: inline;
+}
+
+.middle-nav-items{
+ text-decoration: none ;
+ color:#FF4422;
+ float: right;
+ margin:6px 50px 2px 0;
+ 
+ 
+ 
+}
