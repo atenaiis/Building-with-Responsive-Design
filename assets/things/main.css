@@ -244,7 +244,7 @@ text-decoration: underline;
 .middle-nav-bar{
   height: 50px;
   margin: 0 auto;
-  width: 100%;
+  width:100%;
 
 }
 
@@ -252,21 +252,102 @@ text-decoration: underline;
 text-decoration: none;
 color:#FF4422;
 float: left;
-margin:6px 20px 2px 0;
+font-family: 'Anton', sans-serif;
+font-size: 25px;
+font-weight: bold;
 
+}
+
+.middle-nav-latest:hover{
+  color: black;
+}
+
+.middle-nav-list{
+  float: right;
+  padding: 5px;
+  
 }
 
 .middle-nav-list>li{
   list-style: none;
-  display: inline;
+  display: inline-block;
 }
+
 
 .middle-nav-items{
  text-decoration: none ;
  color:#FF4422;
- float: right;
- margin:6px 50px 2px 0;
+ font-family: 'Anton', sans-serif;
+ font-size: 16px;
+ border-right: 1px solid #FF4422;
+ padding-right: 5px;
  
+
+}
+
+#see-more{
+  border: none;
+}
+
+.middle-nav-items:hover{
+  color: black;
+  }
+
+.funding-middle{
+  margin: 0 auto;
+  width: 85%;
+}
+.funding-section{
  
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  
+
+}
+.funding-tag1,
+.funding-tag2{
+  font-size: 15px;
+  padding: 5px;
  
+  
+}
+
+.funding-tag1>a,
+.funding-tag2>a{
+text-decoration: none;
+font-size: 13px;
+  padding: 5px;
+  color:  #646464;;
+
+}
+.funding-tag1>a:hover,
+.funding-tag2>a:hover{
+  color: #131313;
+}
+
+.funding-box{
+  background-color:#fffaf8; 
+  height: 80px;
+  border-bottom: 1px solid #ffcdc2;
+line-height: 25px;
+}
+.funding-box2{
+  background-color:#fffaf8; 
+  height: 80px;
+  padding: 5px;
+  line-height: 20px;
+}
+.funding-text1{
+  text-decoration: none;
+  font-size: 12px;
+  color:  #646464;;
+  
+}
+
+
+.funding-text2{
+
+color:  #929292;
+font-size: 12px;
 }
