@@ -98,7 +98,8 @@ margin:6px 20px 2px 0;
       background-color: white;
       height:50px ;
       font-family: 'Oswald', sans-serif;
-      
+      position: sticky;
+      top: 0;
       margin: 0 auto;
       width: 100%;
       
@@ -416,8 +417,9 @@ padding: 0;
 }
 .bottom-list-items>li
 {
-  border-bottom: 1px solid rgb(218, 218, 218);
+  border-bottom: 1px solid rgb(228, 228, 228);
   list-style-type: none;
+  padding: 10px;
  
 
 }
@@ -431,9 +433,9 @@ padding: 0;
 .bottom-list-items>li>a{
   text-decoration: none;
   color: #757575;
-  font-size: 13px;
+  font-size: 15px;
   word-spacing: 8px;
-  line-height:10px;
+  line-height:15px;
   overflow: auto;
   font-family: 'Arsenal', sans-serif;
   
@@ -444,4 +446,63 @@ padding: 0;
 }
 
 
+.latest-deals-imgs{
+ 
+  margin:10px 30px 10px 80px ;
+  padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin: 0 auto;
+    width: 85%;
+    
+  }
+  .latest-deals-top{
+      font-family: 'Anton', sans-serif;
+      color:#FF4422;
+      font-size: 28px;
+      font-weight: bold;
+      height:100px;
+      margin-left: 80px;
+  
+     
+  }
+  
+  .latest-deals-top:hover{
+      color: #333;
+  }
+  
+  .deals-caption{
+    text-decoration: none;
+    color: black;
+    font-family: 'Viga', sans-serif;
+    justify-content: center;
+    font-size: 16px;
+  
+  }
+  
+  .deals-caption:hover{
+    color: #ff4321;
+  text-decoration: underline;
+  
+  }
+  
+  .price-scratch{
+    text-decoration: none;
+    font-family: 'Comic Neue', cursive;
+    font-size: 15px;
+    color:  #aaa;
+    line-height: 40px;
+    text-decoration-line:line-through;
 
+  
+  }
+ 
+  
+  .price{
+    font-family: 'Comic Neue', cursive;
+    font-size: 15px;
+    font-weight: bold;
+    color:  rgb(92, 92, 92);
+  
+  }
