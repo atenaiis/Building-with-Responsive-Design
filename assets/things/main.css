@@ -134,6 +134,11 @@ margin:6px 20px 2px 0;
     font-size:12px ;
     border-color:transparent;
     border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .btn-rgst:hover{
+    background-color:purple ;
   }
   .white-nav-items{
     float:left;
@@ -596,4 +601,25 @@ font-size: 15px;
 
   .heart{
     color: red;
+  }
+
+  @media screen and (max-width 768px){
+
+.nav-bar,
+.nav-bar2{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  
+}
+.search{
+display: none;
+font-size: 80px;
+}
+  
+
+
+  
+ 
+}
   }
