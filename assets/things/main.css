@@ -665,15 +665,29 @@ font-size: 15px;
 }
 
 .funding-middle{
-  margin: -1;
+  margin: 0 ;
+  
   
 }
+.middle-nav-bar{
+ display: grid;
+ height: 80px;
+ padding-left: 20px;
+  
+}
+.middle-nav-list{
+word-spacing: 8px;
+
+}
+
+
 .funding-section{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
-padding-left: 10px;
+padding-left: 20px;
 font-family: 'Poppins', sans-serif;
+
 
  
 }
@@ -686,6 +700,40 @@ font-family: 'Poppins', sans-serif;
 }
 .funding-last{
   display: none;
+}
+
+.bottom-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  margin: 0;
+width: fit-content;
+padding: 10px;
+
+}
+
+.latest-deals-imgs{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin: 0;
+padding:10px;
+width: fit-content;
+}
+
+.news1>img{
+  width: 240px;
+}
+
+.deals-caption,
+.price-scratch,
+.price
+{
+  font-size: 14px;
+}
+
+.bottom-line{
+  height: 20px;
 }
 }
 
