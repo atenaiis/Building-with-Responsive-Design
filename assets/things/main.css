@@ -613,9 +613,18 @@ font-size: 15px;
   .nav-bar-items{
     display: flex;
     background-color:;
-    height: 6vh;
+    word-spacing: 15px;
 
   }
+  .nav-bar2{
+    margin: 0;
+   width: max-content;
+  }
+  .white-nav-items{
+    padding-left: 150px;
+    word-spacing: 20px;
+  }
+ 
   .white-nav-items2{
     display: none;
   }
@@ -628,6 +637,8 @@ font-size: 15px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   width: 800px;
+  margin: 0;
+  padding: 10px;
 
 }
 .tnw-img1{
@@ -644,6 +655,18 @@ font-size: 15px;
  padding: 10px;
  font-size: 12px;
  
+  
+}
+
+.latest-tittle{
+height: 50px;
+text-align: initial
+}
+
+.latest-news-top{
+  margin: 0;
+  
+
   
 }
 .news1>img{
