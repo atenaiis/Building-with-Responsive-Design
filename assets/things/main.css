@@ -369,7 +369,7 @@ background-color: #fff4f2;
 .btm-txt2{
  font-size: 13px;
  text-decoration: none;
-text-align: ;
+
  color: #FF4422;
  font-family: 'Anton', sans-serif;
  font-weight: bold;
@@ -380,10 +380,7 @@ text-align: ;
  float: right;
   
 }
-.bottom-list-items1{
 
-
-}
 .bottom-list-items>li
 {
   border-bottom: 1px solid black;
