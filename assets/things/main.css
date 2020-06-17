@@ -771,8 +771,7 @@ padding: 0;
 
   @media only screen and (max-width: 500px) {
    .nav-bar{
-    display: none;
-    
+    display: none; 
   }
 
   .white-nav{
