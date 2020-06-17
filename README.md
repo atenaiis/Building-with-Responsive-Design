@@ -12,7 +12,7 @@ I created this project in the Workarea branch.
 HTML5
 CSS
 
-## [Live Link](https://rawcdn.githack.com/atenaiis/smashingmagazine-Teardown/1b2cb7d357b69c0987bd59c40fc6aeaeec0464f8/style.html)
+## [Live Link](https://rawcdn.githack.com/atenaiis/Building-with-Responsive-Design/298299dbd8d3f30043b13e1fc8e103bfe2bb1653/style.html)
 
 ## Authors
 
