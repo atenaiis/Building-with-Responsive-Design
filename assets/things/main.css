@@ -26,11 +26,11 @@ html {
 
 .logo-tnw {
   height: 50px;
-  left: 0px;
+  left: 0;
   position: absolute;
-  top: 0px;
+  top: 0;
   z-index: -1;
- }
+}
 
 .nav-bar-list1 > li,
 .nav-bar-list2 > li {
@@ -573,16 +573,16 @@ html {
 
 /**************************************************************   */
 @media only screen and (max-width: 768px) {
-
-body {
+  body {
     box-sizing: border-box;
     margin: 0 auto;
     width: 100%;
   }
-  
-  nav,.nav-bar2 {
-  margin: 0 auto; 
-  width: 100%;
+
+  nav,
+  .nav-bar2 {
+    margin: 0 auto;
+    width: 100%;
   }
 
   .nav-bar-items {
@@ -640,9 +640,9 @@ body {
   .news1 > img {
     width: 220px;
   }
- 
+
   .news1-caption {
-   font-size: 13.5px;
+    font-size: 13.5px;
   }
 
   .autor,
@@ -667,14 +667,14 @@ body {
     padding-left: 20px;
   }
 
-  .middle-nav-bar >h2,
+  .middle-nav-bar > h2,
   .middle-nav-list {
     margin: 0;
-   }
+  }
 
   .middle-nav-list {
     word-spacing: 8px;
-   }
+  }
 
   .funding-section {
     display: grid;
@@ -713,7 +713,7 @@ body {
     margin: 0;
     padding: 10px;
     width: 95%;
-   }
+  }
 
   .deals-caption,
   .price-scratch,
@@ -736,7 +736,7 @@ body {
     margin: 0 auto;
     width: 100%;
   }
-  
+
   .nav-bar {
     display: none;
   }
@@ -793,7 +793,7 @@ body {
   .news1 > img {
     float: left;
     width: 100%;
-   }
+  }
 
   .grid-container > a > img {
     padding: 2px;
