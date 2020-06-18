@@ -564,16 +564,28 @@ html {
 
 /**************************************************************   */
 @media only screen and (max-width: 768px) {
-  body {
+body {
+    box-sizing: border-box;
     margin: 0 auto;
     width: 100%;
   }
-
+  
+ 
+nav,
+.nav-bar2{
+  width: 100%;
+  margin: 0 auto;
+}
   .nav-bar-items {
     display: flex;
-    width: fit-content;
     word-spacing: 15px;
   }
+
+ .logo-tnw{
+   margin-left: 0;
+
+
+ }
 
   .white-nav-items {
     padding-left: 120px;
@@ -586,6 +598,7 @@ html {
 
   .yellow {
     text-align: center;
+    width: 100%;
   }
 
   .grid-container {
@@ -607,7 +620,7 @@ html {
   }
 
   .lates-news {
-    width: 780px;
+    width:100%
     padding: 10px;
     font-size: 12px;
   }
@@ -680,7 +693,7 @@ html {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
     margin: 0;
-    width: fit-content;
+    width: 100%;
     padding: 10px;
   }
 
@@ -690,7 +703,7 @@ html {
     grid-gap: 10px;
     margin: 0;
     padding: 10px;
-    width: fit-content;
+    width:100%;
   }
 
   .deals-caption,
@@ -704,7 +717,7 @@ html {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 375px) {
   .nav-bar {
     display: none;
   }
@@ -745,16 +758,17 @@ html {
     flex-direction: column;
     padding: 5px;
     width: 100%;
+    margin: 0 auto;
+    grid-gap: 10px;
   }
 
   .funding-img > img {
-    width: 400px;
-    height: 100px;
+    width: 100%;
   }
 
   .news1 > img {
     float: left;
-    width: 30%;
+    width: 100%
   }
 
   .grid-container > a > img {
