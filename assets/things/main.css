@@ -24,13 +24,13 @@ html {
   color: white;
 }
 
-.logo-tnw{
+.logo-tnw {
   position: absolute;
   left: 0px;
   top: 0px;
   z-index: -1;
   height: 50px;
- }
+   }
 
 .nav-bar-list1 > li,
 .nav-bar-list2 > li {
@@ -573,17 +573,19 @@ html {
 
 /**************************************************************   */
 @media only screen and (max-width: 768px) {
+
+
 body {
     box-sizing: border-box;
     margin: 0 auto;
     width: 100%;
   }
   
-nav,
-.nav-bar2{
+  nav,
+ .nav-bar2 {
   width: 100%;
   margin: 0 auto; 
-}
+ }
 
   .nav-bar-items {
     display: flex;
@@ -667,13 +669,13 @@ nav,
     padding-left: 20px;
   }
   .middle-nav-bar >h2,
-  .middle-nav-list{
+  .middle-nav-list {
     margin: 0;
-  }
+   }
 
   .middle-nav-list {
     word-spacing: 8px;
-  }
+   }
 
   .funding-section {
     display: grid;
@@ -711,8 +713,8 @@ nav,
     grid-gap: 10px;
     margin: 0;
     padding: 10px;
-    width:95%;
-  }
+    width: 95%;
+   }
 
   .deals-caption,
   .price-scratch,
@@ -724,7 +726,7 @@ nav,
     height: 20px;
   }
 
-  .footer-stuff{
+  .footer-stuff {
     width: 100%;
   }
 }
@@ -786,14 +788,14 @@ nav,
   }
 
   .funding-middle,
-  .funding-img{
+  .funding-img {
     margin: 0;
   }
 
   .news1 > img {
     float: left;
-    width: 100%
-  }
+    width: 100%;
+   }
 
   .grid-container > a > img {
     width: 95%;
