@@ -25,11 +25,11 @@ html {
 }
 
 .logo-tnw {
-  position: absolute;
+  height: 50px;
   left: 0px;
+  position: absolute;
   top: 0px;
   z-index: -1;
-  height: 50px;
  }
 
 .nav-bar-list1 > li,
@@ -582,8 +582,8 @@ body {
   
   nav,
  .nav-bar2 {
-  width: 100%;
   margin: 0 auto; 
+  width: 100%;
   }
 
   .nav-bar-items {
@@ -643,7 +643,7 @@ body {
   }
  
   .news1-caption {
-    font-size: 13.5px;
+   font-size: 13.5px;
   }
 
   .autor,
@@ -667,6 +667,7 @@ body {
     height: 80px;
     padding-left: 20px;
   }
+
   .middle-nav-bar >h2,
   .middle-nav-list {
     margin: 0;
@@ -731,7 +732,6 @@ body {
 }
 
 @media only screen and (max-width: 375px) {
-
   body {
     box-sizing: border-box;
     margin: 0 auto;
@@ -756,10 +756,10 @@ body {
   .yellow {
     background-color: #fd3;
     cursor: pointer;
-    padding-top: 20px;
     height: 40px;
     font-family: 'Orbitron', sans-serif;
     font-size: 14px;
+    padding-top: 20px;
     position: sticky;
     top: 45px;
     text-align: center;
@@ -797,9 +797,9 @@ body {
    }
 
   .grid-container > a > img {
-    width: 95%;
     padding: 2px;
     text-align: center;
+    width: 95%;
   }
 
   .latest-news-imgs {
