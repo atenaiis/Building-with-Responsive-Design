@@ -30,7 +30,7 @@ html {
   top: 0px;
   z-index: -1;
   height: 50px;
-   }
+ }
 
 .nav-bar-list1 > li,
 .nav-bar-list2 > li {
@@ -574,7 +574,6 @@ html {
 /**************************************************************   */
 @media only screen and (max-width: 768px) {
 
-
 body {
     box-sizing: border-box;
     margin: 0 auto;
@@ -585,7 +584,7 @@ body {
  .nav-bar2 {
   width: 100%;
   margin: 0 auto; 
- }
+  }
 
   .nav-bar-items {
     display: flex;
@@ -625,7 +624,7 @@ body {
   }
 
   .lates-news {
-    width:fit-content;
+    width: fit-content;
     padding: 10px;
     font-size: 12px;
   }
