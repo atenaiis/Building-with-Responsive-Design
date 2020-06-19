@@ -85,10 +85,7 @@ html {
   color: #131313;
 }
 
-.dropdown-content a:hover {
-  color: white;
-}
-
+.dropdown-content a:hover
 .nav-bar-list1 > li > a:hover,
 .nav-bar-list2 > li > a:hover {
   color: white;
@@ -149,7 +146,7 @@ html {
   padding-right: 10px;
   padding-top: 15px;
 }
-
+.bottom-list-items > li > a:hover,
 .white-nav-items > li > a:hover {
   color: black;
 }
@@ -437,9 +434,6 @@ html {
   color: #f42;
 }
 
-.bottom-list-items > li > a:hover {
-  color: #333;
-}
 
 .latest-deals-imgs {
   margin: 10px 30px 10px 80px;
