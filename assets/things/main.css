@@ -723,7 +723,7 @@ html {
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 450px) {
   body {
     box-sizing: border-box;
     margin: 0 auto;
@@ -769,7 +769,7 @@ html {
     display: flex;
     flex-direction: column;
     padding: 5px;
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
     grid-gap: 10px;
   }
@@ -791,18 +791,19 @@ html {
   .grid-container > a > img {
     padding: 2px;
     text-align: center;
-    width: 95%;
+    width: 425px;
   }
 
   .latest-news-imgs {
     display: flex;
     flex-direction: column;
     padding: 4px;
+    width: 100%;
   }
 
   .latest-news-imgs > figure > img {
     float: left;
-    width: 25%;
+    width: 50%;
     padding: 5px;
   }
 
@@ -824,15 +825,22 @@ html {
   .middle-nav-list {
     display: flex;
     flex-direction: column;
+    width: 100%;
+  }
+
+  .middle-nav-list > li {
+    margin: 0;
   }
 
   .middle-nav-bar {
     height: 170px;
   }
 
-  .middle-nav-list > li > a {
+  .middle-nav-items {
     font-size: 15px;
+    border: none;
   }
+
 
   .funding-section {
     display: flex;
