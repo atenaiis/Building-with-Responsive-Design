@@ -11,28 +11,19 @@ html {
 a{
   text-decoration: none;
 }
-
-.nav-bar {
-  background-color: #131313;
-  text-decoration: none;
-  height: 30px;
-  width: 100%;
-  margin: 0 auto;
-  font-family: 'Oswald', sans-serif;
-  font-size: 13px;
-  font-weight: bold;
+li{
+  list-style: none;
 }
 
-#news {
-  color: white;
-}
+
+
 
 .grid-container{
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 8px;
+ grid-gap:10px;
   padding: 3px 8px;
-  height: 60vh;
+  height: 450px;
  
 
 }
@@ -103,3 +94,265 @@ a{
 }
 
 
+.nav-bar {
+  display: none;
+}
+
+.niav-bar2 {
+  height: 30px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+
+}
+.logo-tnw {
+  height: 53px;
+  left: 0;
+  position: sticky;
+  top: 0;
+  z-index: -1;
+}
+.white-nav-items>li,
+.white-nav-items2>li
+{
+  display: none;
+
+}
+.search-icon{
+  list-style: none;
+}
+.fa-search{
+  position: sticky;
+  top: 0;
+  float: right;
+  padding: 20px;
+  font-size: 20px;
+  color: gray;
+  border-left: gray;
+}
+
+.yellow {
+  background-color: #fd3;
+  cursor: pointer;
+  height: 40px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 14px;
+  padding-top: 20px;
+  position: sticky;
+  top: 45px;
+  text-align: center;
+  width: 100%;
+}
+
+.yellow-text {
+  text-decoration: none;
+  text-align: center;
+  color: #333;
+  margin-left: 30px;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  width: 100%;
+  margin: 0 auto;
+  grid-gap: 10px;
+}
+
+.funding-img > img {
+  width: 350px;
+}
+
+.funding-middle,
+.funding-img {
+  margin: 0;
+}
+
+.news1 > img {
+  float: left;
+  width: 100%;
+}
+
+.grid-container > a > img {
+  padding: 2px;
+  text-align: center;
+  width: 425px;
+}
+
+.latest-news-imgs {
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+  width: 100%;
+}
+
+.latest-news-imgs > figure > img {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+
+/*.latest-news-imgs > figure > figcaption {
+  width: 90%;
+  justify-content: center;
+  padding-top: 5px;
+}*/
+
+
+
+.middle-nav-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.middle-nav-list > li {
+  margin: 0;
+}
+
+.middle-nav-bar {
+  height: 170px;
+}
+
+.middle-nav-latest:hover {
+  color: black;
+}
+.middle-nav-items:hover {
+  color: black;
+}
+.middle-nav-latest {
+  text-decoration: none;
+  color: #f42;
+  float: left;
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+.middle-nav-items {
+  text-decoration: none;
+  color: #f42;
+  font-family: 'Anton', sans-serif;
+  font-size: 16px;
+  border-right: 1px solid #f42;
+  padding-right: 5px;
+}
+.middle-nav-items {
+  font-size: 15px;
+  border: none;
+}
+
+.funding-section {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+}
+
+.bottom-grid {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  text-align: center;
+}
+
+.bottom-grid-tittle {
+  font-size: 30px;
+  font-family: 'Jockey One', sans-serif;
+}
+
+.grid-apps {
+  padding-left: 10px;
+}
+
+.latest-deals-imgs {
+  display: flex;
+  flex-direction: column;
+}
+
+.latest-deals-top {
+  margin: 0;
+  text-align: left;
+  padding-left: 10px;
+  font-family: 'Jockey One', sans-serif;
+  line-height: 80px;
+}
+
+.deals-caption {
+  font-size: 14px;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.footer-stuff {
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.social-links {
+  background: #333;
+  color: white;
+  font-size: 15px;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.footer-list2 > li {
+  list-style: none;
+  display: inline;
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 13px;
+  width: 100%;
+}
+
+.footer-list2 {
+  text-align: center;
+  font-size: 15px;
+}
+
+.bottom-line {
+  text-align: center;
+  font-size: 12px;
+  width: fit-content;
+  height: 50px;
+}
+
+.latest-news-top {
+  font-family: 'Anton', sans-serif;
+  color: #f42;
+  font-size: 28px;
+  font-weight: bold;
+  height: 100px;
+  margin-left: 80px;
+}
+
+.latest-news-top:hover {
+  color: #333;
+}
+
+.news1-caption {
+  text-decoration: none;
+  color: black;
+  font-family: 'Viga', sans-serif;
+  justify-content: center;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.news1-caption:hover {
+  color: #ff4321;
+  text-decoration: underline;
+}
+
+.autor {
+  text-decoration: none;
+  font-family: 'Comic Neue', cursive;
+  font-size: 14px;
+  color: #aaa;
+  padding-left: 10px;
+}
+
+.autor:hover {
+  color: #555;
+}
