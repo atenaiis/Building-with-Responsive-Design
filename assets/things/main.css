@@ -76,8 +76,8 @@ height: 40px;
   background-color: #fd3;
   cursor: pointer;
   margin-top: 45px;
-  height: 50px;
-  padding: 5px 5px 5px 95px;
+  height: 45px;
+  padding: 15px 5px 5px 95px;
   font-family: 'Orbitron', sans-serif;
   font-size: 14px;
   position: sticky;
@@ -87,8 +87,58 @@ height: 40px;
 
 .yellow-text{
   color: #131313;
+  
 }
 
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr;
+ grid-gap:10px;
+  padding: 3px 8px;
+  height: 550px;
+ 
+
+}
+
+
+
+.tnw-img1 {
+  background:   url(./header-image-Trump-BTS-796x417.png ) center no-repeat ;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+ 
+}
+
+.tnw-img2{
+  background:   url(./header-image-Trump-BTS-796x417.png ) center no-repeat ;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+ 
+}
+
+ .tnw-img3{
+  background:   url(./header-image-Trump-BTS-796x417.png ) center no-repeat ;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+ 
+ }
+
+ .secondary-subtitle>span,
+ .fa-clock,
+ .fa-share-alt
+ {
+ 
+font-size: 15px; 
+color: rgb(177, 163, 163) ;
+font-weight: bold;
+ }
 
 @media only screen and (min-width: 768px) {
   .logo-tnw {
@@ -246,6 +296,50 @@ padding-left: 40px;
   margin-left: 5px;
   
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: 60% 35%;
+overflow: auto;
+height: 350px;
+margin:0 auto;
+width: 100%;
+
+
+}
+
+.grid1-img1 {
+  background-color: DodgerBlue;
+  color: white;
+  width: 100%;
+  align-items: stretch;
+  line-height: 25px;
+  
+  font-size: 30px;
+}
+
+.tnw-img1{
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.grid1-title
+{
+display: inline;
+width: fit-content;
+}
+.grid-tittle2
+{
+font-size: 20px;
+width: 400px;
+position: absolute;
+color: white;
+bottom: 130px;
+
+
+}
+
+.grid1-title{
+  
+}
 
 }
 @media only screen and (min-width: 1064px) {
@@ -312,5 +406,35 @@ padding: 0;
 text-align: left;
 }
 
+
+.grid1-logo {
+  background-image: url(./logo.svg);
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 112px;
+  margin: 24px;
+  position: absolute;
+  z-index: 5;
+}
+.tnw-img1::after
+{
+  display: block;
+  position: relative;
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0) 0,rgb(241, 62, 21) 100%);
+  margin-top: 0px;
+  height: 350px;
+  width: 100%;
+  content: '';
+}
+.grid-tittle2
+{
+font-size: 20px;
+width: 400px;
+position: absolute;
+color: white;
+bottom: 150px;
+
+
+}
 
 }
