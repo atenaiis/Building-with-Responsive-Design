@@ -19,34 +19,97 @@ li{
   list-style: none;
 }
 
-.nav-sml-vrsn{
-background-color: transparent;
-color: white;
-height: 1px;
-font-size: 1px;
+.logo-tnw {
+ width: 90px;
+ height: 45px;
+  left: 0;
+  position: fixed;
+  top: 0;
 
 }
 
+.nav-bar{
+  display: none;
+}
+.white-nav{
+  height: 50px;
+ top: 0;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  margin: 0 auto;
+}
+.white-nav-items,
+.white-nav-items2{
+  display: none;
+ 
+}
 
+
+.hamburger-menu{
+ color: orangered;
+ position: fixed;
+ top: 2px;
+ right: 20px;
+ padding: 12px;
+ font-size:25px;
+ 
+ border-left:1px solid #afaeae;
+height: 40px;
+}
+
+.search-icon{
+  position: fixed;
+  top: 2px;
+  right: 80px;
+  padding:12px ;
+
+  font-size: 20px;
+  border-right:1px solid #afaeae;
+ height: 40px;
+ transform: scaleX(-1);
+ color:  #afaeae;
+
+}
+
+.yellow{
+  background-color: #fd3;
+  cursor: pointer;
+  margin-top: 45px;
+  height: 50px;
+  padding: 5px 5px 5px 95px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 14px;
+  position: sticky;
+  top: 45px;
+
+}
+
+.yellow-text{
+  color: #131313;
+}
 
 
 @media only screen and (min-width: 768px) {
   .logo-tnw {
-    height: 70px;
+    height:auto;
     left: 0;
+    width: 88px;
     position: fixed;
-    top: 0;
+    bottom: 0;
     z-index: -1;
   }
   
   
   .nav-bar{
+    display: inline-block;
     height: 30px;
     background-color: black;
-    margin-left: 87px;
     font-size: 15px;
     overflow: hidden;
-   
+    margin-left:  50px;
+    width: 100%;
+   padding: 5px;
       }
     
 .nav-bar-list1 > li,
@@ -77,15 +140,16 @@ font-size: 1px;
   color: white;
 }
 
-
 .nav-bar-list1 {
   float: left;
-  margin: 6px 10px 2px 0;
+ 
 }
 
 .nav-bar-list2 {
   float: right;
-  margin: 6px 10px 2px 0;
+  padding-right: 55px;
+  
+  
 }
 
 .dropdown {
@@ -113,11 +177,18 @@ font-size: 1px;
 }
 .white-nav-items {
   justify-content: center;
+  display: inline;
  
 }
 
 .white-nav{
-  margin-left: 70px;
+  margin: 0;
+position: sticky;
+top:10px;
+padding-left: 40px;
+ background-image: url(./background-tnw-little.PNG);
+ background-repeat: no-repeat;
+ background-position:left bottom;
 
 }
 .white-nav-items2{
@@ -129,7 +200,9 @@ font-size: 1px;
   padding-left: 20px;
 }
 
-
+.hamburger-menu{
+  display: none;
+}
 .nav-bar2 {
   background-color: white;
   height: 50px;
@@ -157,13 +230,23 @@ font-size: 1px;
 .search-icon {
   position: absolute;
   right: 20px;
-  
   padding:20px ;
   font-size: 20px;
   color:  #afaeae;
-  border-left:1px solid #afaeae;
- height: 40px;
+ height: 50px;
 }
+.yellow {
+ height: 30px;
+ margin: 0; 
+ 
+}
+
+.yellow-text {
+  color: #333;
+  margin-left: 5px;
+  
+}
+
 }
 @media only screen and (min-width: 1064px) {
  
@@ -172,15 +255,12 @@ font-size: 1px;
     height: 30px;
     background-color: black;
     margin: 0 auto;
+    padding-left: 20px;
       }
 
       .logo-tnw {
         visibility: hidden;
-        height: 60px;
-        left: 0;
-        position: fixed;
-        top: 0;
-        z-index: -1;
+      
       }
       
 
@@ -189,7 +269,9 @@ font-size: 1px;
   display: none;
 }
 .white-nav{
-margin: 0;
+
+background-image: none;
+padding: 0;
 }
 
 .white-nav-items {
@@ -225,7 +307,10 @@ margin: 0;
   background-color: purple;
 }
 
-
+.yellow{
+  padding: 5px 0 5px 50px;
+text-align: left;
+}
 
 
 }
