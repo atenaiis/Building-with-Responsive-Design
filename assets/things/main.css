@@ -85,13 +85,21 @@ height: 40px;
 
 }
 
-.yellow-text{
+.yellow-text,
+.funding-tag1 > a:hover,
+.funding-tag2 > a:hover,
+.latest-news-top:hover,
+.middle-nav-latest:hover,
+.middle-nav-items:hover,
+.bottom-grid-tittle:hover,
+.bottom-list-items > li > a:hover,
+.latest-deals-top:hover  {
   color: #131313;
   
 }
 
 
-.grid-container{
+.grid-container,{
   display: grid;
   grid-template-columns: 1fr;
  grid-gap:10px;
@@ -103,7 +111,10 @@ height: 40px;
   height: 100%;
 }
 
-.latest-tittle {
+.latest-tittle,
+.middle-nav-latest,
+.bottom-grid-tittle,
+.latest-deals-top  {
   font-family: 'Anton', sans-serif;
   color: #f42;
   font-size: 20px;
@@ -113,11 +124,9 @@ height: 40px;
 
 }
 
-.latest-news-top:hover {
-  color: #333;
-}
 
-.news1-caption {
+.news1-caption,
+.deals-caption {
   color: black;
   font-family: 'Viga', sans-serif;
   text-align:  center;
@@ -126,12 +135,14 @@ height: 40px;
  
 }
 
-.news1-caption:hover {
+.news1-caption:hover,
+.deals-caption:hover  {
   color: #ff4321;
   text-decoration: underline;
 }
 
-.autor {
+.autor,
+.price-scratch {
   font-family: 'Comic Neue', cursive;
   font-size: 14px;
   color: #aaa;
@@ -148,12 +159,15 @@ height: 40px;
   color: #aaa;
 }
 
-.figcaption1{
+.figcaption1,
+.deals-text
+{
  align-items: center;
   margin: 15px 10px 30px ;
 }
 
-.lates-new{
+.lates-new,
+.lates-deals{
   display: flex;
   flex-direction: column;
   
@@ -165,6 +179,236 @@ height: 40px;
   clear: both;
   margin-bottom: 10px;
   padding-left: 10px;
+}
+
+
+.funding-middle,
+.funding-img {
+  margin: 0;
+ padding: 10px;
+}
+.funding-img>img {
+
+  width: 100%;
+  height: 100px;
+}
+.funding-tag1 > a,
+.funding-tag2 > a {
+  font-size: 13px;
+  padding: 5px;
+  color: #646464;
+}
+
+
+
+.funding-box {
+  background-color: #fffaf8;
+  height: 80px;
+  border-bottom: 1px solid #ffcdc2;
+  line-height: 25px;
+}
+
+.funding-box2 {
+  background-color: #fffaf8;
+  height: 80px;
+  padding: 5px;
+  line-height: 20px;
+}
+
+.funding-text1 {
+ 
+  font-size: 12px;
+  color: #646464;
+}
+
+.funding-text2 {
+  color: #929292;
+  font-size: 12px;
+}
+
+.middle-nav-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  padding:0;
+  
+}
+
+.middle-nav-list > li {
+  margin: 0;
+  line-height: 30px;
+}
+
+.middle-nav-items {
+ 
+  color: #f42;
+  font-family: 'Anton', sans-serif;
+  font-size: 16px;
+ 
+}
+.grid-apps {
+  padding-top: 60px;
+  width: 90%;
+}
+.bottom-list-items > li > a {
+  text-decoration: none;
+  color: #757575;
+  font-size: 15px;
+  word-spacing: 8px;
+  line-height: 15px;
+  overflow: auto;
+  font-family: 'Arsenal', sans-serif;
+}
+
+
+.bottom-text {
+  height: 95px;
+  background-color: #fff4f2;
+}
+
+.btm-txt,
+.btm-txt2  {
+  font-size: 13px;
+  text-decoration: none;
+  color: #f42;
+  font-family: 'Poppins', sans-serif;
+  padding: 5px;
+}
+
+
+
+.bottom-img {
+  width: 100%;
+}
+
+.bottom-little-img {
+  float: right;
+  height: 100%;
+}
+
+.bottom-list-items {
+  padding: 0;
+}
+
+.bottom-list-items > li {
+  border-bottom: 1px solid rgb(228, 228, 228);
+  list-style-type: none;
+  padding: 10px;
+}
+
+.bottom-list-items > li::before {
+  content: "•";
+  padding-right: 8px;
+  color: #f42;
+}
+
+
+.deals-text{
+  
+  padding-top: 20px;
+}
+
+.price-scratch {
+  text-decoration: none;
+  font-family: 'Comic Neue', cursive;
+  font-size: 15px;
+  color: #aaa;
+  line-height: 40px;
+  text-decoration-line: line-through;
+}
+
+.price {
+  font-family: 'Comic Neue', cursive;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(92, 92, 92);
+}
+
+.footer-stuff {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.footer-items1,
+.footer-list2 {
+  height: 60px;
+  background-color: #131313;
+  padding-top: 20px;
+}
+
+.footer-items1 {
+  padding-top: 50px;
+  word-spacing: 15px;
+  color: #aaa;
+  height: 100px;
+  align-items: center;
+
+ 
+}
+
+.footer-items1 > li {
+  display: inline;
+  list-style: none;
+}
+
+.social-links {
+  background: #333;
+  color: white;
+  font-size: 15px;
+  height: 20px;
+  border-radius: 50%;
+align-items: center;
+  width: 20px;
+  vertical-align: middle;
+  padding: 15px;
+ 
+}
+
+.social-links:hover {
+  background-color: #131313;
+  border: 2px solid #333;
+}
+
+.footer-list2 > li {
+  list-style: none;
+  display: inline;
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 15px;
+  
+}
+
+.footer-links {
+  text-decoration: none;
+  color: #aaa;
+  padding: 10px;
+}
+
+.footer-links:hover {
+  color: white;
+}
+
+.bottom-line {
+  height: 80px;
+  background-color: black;
+  color: white;
+  padding: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.bottom-line > span {
+  word-spacing: 5px;
+  color: rgb(141, 140, 140);
+}
+
+.heart {
+  color: red;
+}
+.stack{
+  color: white;
 }
 
 
@@ -324,7 +568,9 @@ padding-left: 40px;
 
 .yellow-text {
   color: #333;
-  margin-left: 5px;
+  font-weight: bold;
+  
+
   
 }
 .grid1-img1>img{
@@ -364,7 +610,8 @@ width: 100%;
   grid-row-end: 3;
 }
 
-.latest-news-imgs {
+.latest-news-imgs,
+.latest-deals-imgs {
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -375,9 +622,58 @@ width: 100%;
 .news1>img{
   width: 100%;
 }
+
+.news1-caption,
+.deals-caption,
+.price-scratch{
+  padding:0;
+  justify-content: center;
+}
 .figcaption1{
   justify-content: center;
   margin: 0;
+}
+
+
+.funding-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  padding-left: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.funding-img {
+  width: 250px;
+}
+
+.funding-img > img {
+  width: 228px;
+  height: 100px;
+}
+
+.funding-last {
+  display: none;
+}
+.middle-nav-list {
+ flex-direction: row;
+ 
+}
+
+.middle-nav-items{
+  padding:0px 20px 0px 5px;
+  border-right:1px solid #f42;
+  line-height: 20px;
+}
+#see-more{
+  border: none;
+ }
+ .bottom-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px;
+  width: 100%;
+  margin: 0 auto;
 }
 }
 @media only screen and (min-width: 1064px) {
@@ -389,11 +685,11 @@ width: 100%;
     margin: 0 auto;
     padding-left: 20px;
       }
-
-      .logo-tnw {
+ .logo-tnw {
         visibility: hidden;
-      
+    
       }
+
       
 
 
@@ -479,12 +775,44 @@ text-align: left;
 .grid-container{
   height: 450px;
 }
-.latest-news-imgs{
+.latest-news-imgs,
+.funding-section,
+.latest-deals-imgs{
   grid-template-columns: repeat(4, 1fr);
+  width: 85%;
+}
+
+.latest-tittle,
+.middle-nav-bar
+{
   width: 80%;
 }
-.latest-tittle{
-  width: 80%;
+.funding-last {
+  display: grid;
+}
+{
+ 
+}
+.middle-nav-list,
+.middle-nav-list1{
+ display: inline;
+  
+}
+.middle-nav-list>li{
+float: right;
+
+}
+.middle-nav-items{
+  border: none;
+}
+.get-update{
+  padding:0px 20px 0px 5px;
+  border-right:1px solid #f42;
+  border-left: 1px solid #f42;
+  line-height: 20px;
+}
+.bottom-grid {
+  grid-template-columns: repeat(3, 1fr);
 }
 
 }
