@@ -18,6 +18,9 @@ a{
 li{
   list-style: none;
 }
+h3{
+  display: none;
+}
 
 .logo-tnw {
  width: 90px;
