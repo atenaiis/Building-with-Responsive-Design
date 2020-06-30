@@ -98,39 +98,14 @@ height: 40px;
   padding: 3px 8px;
   height: 550px;
  
-
 }
-
-
-
-.tnw-img1 {
-  background:   url(./header-image-Trump-BTS-796x417.png ) center no-repeat ;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-
- 
-}
-
-.tnw-img2{
-  background:   url(./header-image-Trump-BTS-796x417.png ) center no-repeat ;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-
- 
-}
-
- .tnw-img3{
-  background:   url(./header-image-Trump-BTS-796x417.png ) center no-repeat ;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
 
  
  }
 
- .secondary-subtitle>span,
+
+
+ .gri1-subtitle>span,
  .fa-clock,
  .fa-share-alt
  {
@@ -296,50 +271,60 @@ padding-left: 40px;
   margin-left: 5px;
   
 }
+.grid1-img1>img{
+  display: none;
+}
+.tnw-img1 {
+  background:   url(./main4.PNG ) center no-repeat ;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+ 
+}
+
+.tnw-img2{
+  background:   url(./main5.PNG) center no-repeat ;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+ 
+}
+
+ .tnw-img3{
+  background:   url(./main6.PNG ) center no-repeat ;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+ 
+ }
 .grid-container {
   display: grid;
-  grid-template-columns: 60% 35%;
-overflow: auto;
-height: 350px;
+grid-template-columns: 2fr 1fr;
+height:350px;
 margin:0 auto;
 width: 100%;
+overflow: auto;
 
 
 }
 
 .grid1-img1 {
-  background-color: DodgerBlue;
-  color: white;
-  width: 100%;
-  align-items: stretch;
-  line-height: 25px;
   
-  font-size: 30px;
+  width: 100%;
+  
+  
+ 
 }
 
 .tnw-img1{
   grid-row-start: 1;
   grid-row-end: 3;
 }
-.grid1-title
-{
-display: inline;
-width: fit-content;
-}
-.grid-tittle2
-{
-font-size: 20px;
-width: 400px;
-position: absolute;
-color: white;
-bottom: 130px;
 
 
-}
-
-.grid1-title{
-  
-}
 
 }
 @media only screen and (min-width: 1064px) {
@@ -407,34 +392,41 @@ text-align: left;
 }
 
 
-.grid1-logo {
-  background-image: url(./logo.svg);
+.tnw-img1 {
+  background:   url(./main1.PNG ) center no-repeat ;
+  background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
-  width: 50%;
-  height: 112px;
-  margin: 24px;
-  position: absolute;
-  z-index: 5;
+
+ 
 }
-.tnw-img1::after
-{
-  display: block;
-  position: relative;
-  background-image: linear-gradient(to top, rgba(255, 255, 255, 0) 0,rgb(241, 62, 21) 100%);
-  margin-top: 0px;
-  height: 350px;
+
+.tnw-img2{
+  background:   url(./main2.PNG) center no-repeat ;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+ 
+}
+
+ .tnw-img3{
+  background:   url(./main3.PNG ) center no-repeat ;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+ 
+ }
+
+.tnw-img1{
   width: 100%;
-  content: '';
-}
-.grid-tittle2
-{
-font-size: 20px;
-width: 400px;
-position: absolute;
-color: white;
-bottom: 150px;
-
 
 }
+.grid-container{
+  height: 450px;
+}
+
+
 
 }
