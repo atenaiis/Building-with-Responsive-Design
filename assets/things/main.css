@@ -98,9 +98,8 @@ height: 40px;
 .bottom-list-items > li > a:hover,
 .latest-deals-top:hover  {
   color: #131313;
-  
-}
 
+}
 
 .grid-container,{
   display: grid;
@@ -109,6 +108,7 @@ height: 40px;
   padding: 3px 8px;
   height: 550px;
 }
+
 .grid1-img1>img{
   width: 100%;
   height: 100%;
@@ -263,7 +263,6 @@ height: 40px;
   overflow: auto;
   font-family: 'Arsenal', sans-serif;
 }
-
 
 .bottom-text {
   height: 95px;
