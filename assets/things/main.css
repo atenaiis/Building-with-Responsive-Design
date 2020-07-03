@@ -150,7 +150,7 @@ h3 {
   height: 550px;
 }
 
-.grid1-img1{
+.grid1-img1 {
   width: 95%;
   margin: 10px;
 }
@@ -160,7 +160,8 @@ h3 {
 }
 
 .tnw-img1 {
-  background: -webkit-linear-gradient(transparent, black 85%),
+  background:
+   -webkit-linear-gradient(transparent, black 85%),
      url(./main1.PNG);
   background-size: cover;
   background-position: center center;
@@ -618,7 +619,7 @@ h3 {
     margin-bottom: 10px;
   }
 
-  .bottom-grid-cover2{
+  .bottom-grid-cover2 {
 font-size: 15px;
   }
 
@@ -772,7 +773,7 @@ font-size: 15px;
 
   .tnw-img1 {
     background:
-    -webkit-linear-gradient(#ef5353,transparent ,#b35f5f,black 100% ),
+    -webkit-linear-gradient(#ef5353, transparent , #b35f5f, black 100% ) ,
        url(./main1.PNG);
     background-size: cover;
     background-position: center center;
@@ -792,18 +793,18 @@ height: 220px;
   width: 450px;
   }
 
-.grid-cover-text{
+.grid-cover-text {
   color: white;
   font-size: 45px;
   padding: 45px 20px;
   width: fit-content;
 }
 
-.bottom-grid-cover2{
+.bottom-grid-cover2 {
 font-size: 20px;
 }
  
-.grid-cover-text2{
+.grid-cover-text2 {
 padding-top: 80px;
 }
 
@@ -816,7 +817,7 @@ padding-top: 80px;
     overflow: hidden;
   }
 
-  .latest-deals-top{
+  .latest-deals-top {
 padding-left: 50px;
   }
   .latest-tittle,
