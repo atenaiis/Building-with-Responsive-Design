@@ -1,5 +1,5 @@
 # Building-with-Responsive-Design
-<<<<<<< workarea
+
 
 This project consists of building a heatmap of the [this](https://thenextweb.com/)
 
