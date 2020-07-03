@@ -148,12 +148,10 @@ h3 {
   grid-gap: 10px;
   padding: 3px 8px;
   height: 550px;
-
-  
 }
 
 .grid1-img1{
-  width:95%;
+  width: 95%;
   margin: 10px;
 }
 
@@ -162,12 +160,12 @@ h3 {
 }
 
 .tnw-img1 {
-  background:-webkit-linear-gradient(transparent, black 85%),
-     url(./main1.PNG) ;
+  background: -webkit-linear-gradient(transparent, black 85%),
+     url(./main1.PNG);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-cursor: pointer;
+ cursor: pointer;
 }
 
 
@@ -181,8 +179,7 @@ cursor: pointer;
 }
 
 .tnw-img3 {
-  background:
-   url(./main3.PNG) center no-repeat;
+  background: url(./main3.PNG) center no-repeat;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -204,7 +201,6 @@ cursor: pointer;
   font-size: 18px;
   font-weight: bold;
   padding: 20px;
-
 }
 
 .news1-caption,
@@ -603,7 +599,6 @@ cursor: pointer;
   }
 
   .tnw-img1 {
-    
     grid-row-start: 1;
     grid-row-end: 3;
   }
@@ -611,7 +606,6 @@ cursor: pointer;
  .grid-cover-text {
    font-size: 40px;
    padding-top: 150px;
-
  }
 
   .grid-container {
@@ -622,12 +616,10 @@ cursor: pointer;
     padding: 0;
     margin-top: 10px;
     margin-bottom: 10px;
-  
   }
 
   .bottom-grid-cover2{
 font-size: 15px;
-
   }
 
   .grid1-img1 {
@@ -781,7 +773,7 @@ font-size: 15px;
   .tnw-img1 {
     background:
     -webkit-linear-gradient(#ef5353,transparent ,#b35f5f,black 100% ),
-       url(./main1.PNG) ;
+       url(./main1.PNG);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -793,6 +785,7 @@ font-size: 15px;
   .tnw-img3 {
 height: 220px;
   }
+
   .cover-grid>img {
   display: inline;
     padding: 30px;
@@ -813,6 +806,7 @@ font-size: 20px;
 .grid-cover-text2{
 padding-top: 80px;
 }
+
   .latest-news-imgs,
   .funding-section,
   .latest-deals-imgs {
