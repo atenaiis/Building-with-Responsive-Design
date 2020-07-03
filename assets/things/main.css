@@ -90,6 +90,8 @@ h3 {
 .latest-deals-top,
 .latest-tittle,
 .middle-nav-latest,
+.middle-nav-list,
+.middle-nav-bar,
 .bottom-grid-tittle {
   font-family: 'Jockey One', sans-serif;
   color: #f42;
@@ -97,7 +99,7 @@ h3 {
   font-weight: bold;
   height: 45px;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 80px;
 }
 
 .funding-tag1 > a,
@@ -165,7 +167,7 @@ h3 {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-
+cursor: pointer;
 }
 
 
@@ -175,6 +177,7 @@ h3 {
   background-position: center center;
   background-repeat: no-repeat;
  max-height: min-content;
+ cursor: pointer;
 }
 
 .tnw-img3 {
@@ -184,6 +187,7 @@ h3 {
   background-position: center center;
   background-repeat: no-repeat;
   max-height: min-content;
+  cursor: pointer;
 }
 
 
@@ -818,6 +822,9 @@ padding-top: 80px;
     overflow: hidden;
   }
 
+  .latest-deals-top{
+padding-left: 50px;
+  }
   .latest-tittle,
   .middle-nav-bar {
     width: 80%;
