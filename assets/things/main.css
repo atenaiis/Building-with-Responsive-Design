@@ -155,28 +155,27 @@ h3 {
   margin: 10px;
 }
 
-.cover-grid>img {
+.cover-grid > img {
   display: none;
 }
 
 .tnw-img1 {
   background:
-   -webkit-linear-gradient(transparent, black 85%),
-     url(./main1.PNG);
+    -webkit-linear-gradient(transparent, black 85%),
+    url(./main1.PNG);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
- cursor: pointer;
+  cursor: pointer;
 }
-
 
 .tnw-img2 {
   background: url(./main2.PNG) center no-repeat;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
- max-height: min-content;
- cursor: pointer;
+  max-height: min-content;
+  cursor: pointer;
 }
 
 .tnw-img3 {
@@ -187,7 +186,6 @@ h3 {
   max-height: min-content;
   cursor: pointer;
 }
-
 
 .grid-cover-text,
 .grid-cover-text2 {
@@ -604,10 +602,10 @@ h3 {
     grid-row-end: 3;
   }
 
- .grid-cover-text {
-   font-size: 40px;
-   padding-top: 150px;
- }
+  .grid-cover-text {
+    font-size: 40px;
+    padding-top: 150px;
+  }
 
   .grid-container {
     display: grid;
@@ -620,7 +618,7 @@ h3 {
   }
 
   .bottom-grid-cover2 {
-font-size: 15px;
+    font-size: 15px;
   }
 
   .grid1-img1 {
@@ -773,8 +771,8 @@ font-size: 15px;
 
   .tnw-img1 {
     background:
-    -webkit-linear-gradient(#ef5353, transparent , #b35f5f, black 100% ) ,
-       url(./main1.PNG);
+      -webkit-linear-gradient(#ef5353, transparent, #b35f5f, black 100%),
+      url(./main1.PNG);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -784,29 +782,29 @@ font-size: 15px;
 
   .tnw-img2,
   .tnw-img3 {
-height: 220px;
+    height: 220px;
   }
 
-  .cover-grid>img {
-  display: inline;
+  .cover-grid > img {
+    display: inline;
     padding: 30px;
-  width: 450px;
+    width: 450px;
   }
 
-.grid-cover-text {
-  color: white;
-  font-size: 45px;
-  padding: 45px 20px;
-  width: fit-content;
- }
+  .grid-cover-text {
+    color: white;
+    font-size: 45px;
+    padding: 45px 20px;
+    width: fit-content;
+  }
 
-.bottom-grid-cover2 {
-  font-size: 20px;
- }
- 
-.grid-cover-text2 {
-  padding-top: 80px;
- }
+  .bottom-grid-cover2 {
+    font-size: 20px;
+  }
+
+  .grid-cover-text2 {
+    padding-top: 80px;
+  }
 
   .latest-news-imgs,
   .funding-section,
@@ -818,8 +816,9 @@ height: 220px;
   }
 
   .latest-deals-top {
-padding-left: 50px;
+    padding-left: 50px;
   }
+
   .latest-tittle,
   .middle-nav-bar {
     width: 80%;
