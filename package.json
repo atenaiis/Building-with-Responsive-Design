@@ -1,0 +1,24 @@
+{
+  "name": "Building-with-Responsive-Design",
+  "version": "1.0.0",
+  "description": "<<<<<<< workarea",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atenaiis/Building-with-Responsive-Design.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atenaiis/Building-with-Responsive-Design/issues"
+  },
+  "homepage": "https://github.com/atenaiis/Building-with-Responsive-Design#readme",
+  "devDependencies": {
+    "stylelint": "^13.6.1",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
